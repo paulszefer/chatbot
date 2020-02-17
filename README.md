@@ -4,7 +4,7 @@ A simple ChatBot implementation built to create an environment for people to pra
 
 ## Technologies
 * **Node.js, Express**
-    * Handles the backend server that serves the UI upon request and passes messages from the user to the ChatBot API and back to the user
+    * Handles the backend that serves the UI upon request and passes messages between the user and the ChatBot API
     * [Node.js](https://nodejs.org/en/)
     * [Express](https://expressjs.com/), [npm - Express](https://www.npmjs.com/package/express)
 * **DialogFlow, Api.ai**
@@ -13,8 +13,7 @@ A simple ChatBot implementation built to create an environment for people to pra
     * [npm - Api.ai](https://www.npmjs.com/package/apiai)
 * **Socket.IO**
     * Support for real-time bidirectional communication between clients
-    * [Socket.IO](https://socket.io/)
-    * [npm - Socket.IO](https://www.npmjs.com/package/socket.io)
+    * [Socket.IO](https://socket.io/), [npm - Socket.IO](https://www.npmjs.com/package/socket.io)
 * **Dotenv**
     * Loads environment variables from a static .env file into process.env so they can be retrieved at runtime
     * [npm - Dotenv](https://www.npmjs.com/package/dotenv)
