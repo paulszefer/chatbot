@@ -22,7 +22,7 @@ A simple ChatBot implementation built to create an environment for people to pra
     * Generates unique session IDs
     * [npm - uuid](https://www.npmjs.com/package/uuid)
 
-Thanks to:
+## Thanks to:
 * https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/
     * For providing a wonderful tutorial on creating a ChatBot interface and backend
 * https://github.com/girliemac/web-speech-ai
