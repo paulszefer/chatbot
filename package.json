@@ -1,12 +1,13 @@
 {
   "name": "chatbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple ChatBot implementation built to create an environment for people to practice communication skills (through speech - hearing/speaking, text - reading/writing).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Paul Szefer",
+  "repository": "https://github.com/paulszefer/chatbot",
   "license": "ISC",
   "dependencies": {
     "apiai": "^4.0.3",
