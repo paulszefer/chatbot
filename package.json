@@ -4,6 +4,7 @@
   "description": "A simple ChatBot implementation built to create an environment for people to practice communication skills (through speech - hearing/speaking, text - reading/writing).",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paul Szefer",
