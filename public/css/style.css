@@ -89,3 +89,35 @@ button:focus {
 .fa-github::before {
     content: "\f09b";
 }
+
+.chat-container {
+  border: solid 2px black;
+
+  padding: 1em 1em;
+
+  background-color: lightblue;
+}
+
+.chat-row {
+  padding: 1em 0;
+
+  display: grid;
+  grid-template-columns: [start] 1fr [bubble-left-start] 6fr [bubble-left-end center-start] 6fr [center-end bubble-right-start] 6fr [bubble-right-end] 1fr [end];
+}
+
+.chat-bubble {
+  border: solid 2px black;
+  border-radius: 1em;
+
+  padding: 1em;
+
+  background-color: rgb(184, 241, 28);
+}
+
+.chat-bubble-left {
+  grid-column: bubble-left-start / bubble-left-end;
+}
+
+.chat-bubble-right {
+  grid-column: bubble-right-start / bubble-right-end;
+}

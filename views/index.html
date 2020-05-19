@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="An AI chatbot using the Web Speech API">
-  <meta name="author" content="Paul Szefer">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="An AI chatbot using the Web Speech API">
+    <meta name="author" content="Paul Szefer">
 
-  <title>An AI chatbot using the Web Speech API</title>
+    <title>An AI chatbot using the Web Speech API</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
 
-<body>
-  <section>
-    <h1>AI ChatBot</h1>
+  <body>
+    <section>
+      <h1>AI ChatBot</h1>
 
-    <button class="speakButton"><i class="fa fa-microphone"></i></button>
+      <div class="chat-container"></div>
 
-    <label for="inputBox">Say something:</label>
-    <input id="inputBox" class='inputBox'>
+      <button class="speakButton"><i class="fa fa-microphone"></i></button>
 
-    <div>
-      <p>You said: <em class="clientText">...</em></p>
-      <p>Bot replied: <em class="serverText">...</em></p>
-    </div>
-  </section>
+      <label for="inputBox">Say something:</label>
+      <input id="inputBox" class='inputBox'>
+    </section>
 
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 
 </html>
